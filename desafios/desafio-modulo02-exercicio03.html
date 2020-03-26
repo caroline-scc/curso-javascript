@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <head>
+        <title>Desafio - módulo 02.</title>      <!--Exercício 03.-->
+    </head>
+    <body>
+        <ul></ul>
+        <script>
+            var nomes  = ['Diego', 'Gabriel', 'Lucas'];
+            var listelement = document.querySelector('ul');
+
+            for (nome of nomes){
+                var lielement = document.createElement('li');
+                var textelement = document.createTextNode(nome);
+                lielement.appendChild(textelement);
+                listelement.appendChild(lielement);
+            }
+        </script>
+    </body>
+</html>
+
+<!--A partir do seguinte vetor:
+var nomes = ["Diego", "Gabriel", "Lucas"];
+Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:
+● Diego
+● Gabriel
+● Lucas   -->
