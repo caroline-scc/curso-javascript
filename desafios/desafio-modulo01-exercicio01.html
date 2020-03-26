@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Desafio - módulo 01.</title>   <!--EXERCÍCIO 01.-->
+    </head>
+<body>      
+    <script>     
+        var endereco = {
+            rua: "Rua dos Pinheiros",
+            numero: "1293",
+            bairro: "Centro",
+            cidade: "São  Paulo",
+            uf: "SP"
+        };
+        function formatadorendereco (end){
+            return "O usuário mora  em "+end.cidade+" /  "+end.uf+" "+end.bairro+", na "+end.rua+" com nº "+end.numero+ "."
+        }
+        console.log(formatadorendereco(endereco));
+    </script>
+</body>
+</html> 
+
+<!--Crie uma função que dado o objeto a seguir:
+Retorne o seguinte conteúdo: "O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293".-->
